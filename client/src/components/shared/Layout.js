@@ -7,7 +7,7 @@ const Layout = (props) => {
   <div className='layout'>
 
     <Nav />
-    <h1>Mern Blog App</h1>
+   
  
     {props.children}
 

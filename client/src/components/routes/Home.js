@@ -4,7 +4,9 @@ import Layout from '../shared/Layout';
 const Home = () => {
   return (
   <Layout>
-    <h2>Welcome to Mern-Blog-App!</h2>
+    <div className='homelayout'>
+     <h1>Mern</h1>
+     </div>
     </Layout>
   )
 }

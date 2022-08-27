@@ -1,12 +1,15 @@
 import { useState, useEffect } from 'react';
-import { NavLink } from "react-router-dom";
+//import { NavLink } from "react-router-dom";
 import axios from 'axios';
 import Nav from "../shared/Nav"
 import Footer from '../shared/Footer'
+import {useNavigate} from "react-router-dom";
 
 //import apiUrl from '../../apiConfig'
 
 function Blogs() {
+  
+  const navigate = useNavigate();
   const [blogs, setBlogs] = useState([])
 
   const fetchData = async () => {
@@ -24,19 +27,32 @@ function Blogs() {
     fetchData()
   }, [])
 
-  const blogsData = blogs.map((blog) => {
-    return <li key={blog._id}>
-      <NavLink to={`/blogs/${blog._id}`} >{blog.title}</NavLink>
-    </li>
-  })
+  // const blogsData = blogs.map((blog) => {
+  //   return <li key={blog._id}>
+  //     <NavLink className="blogidea"  to={`/blogs/${blog._id}`} >{blog.title}
+       
+  //     </NavLink>
+  //   </li>
+  // })
 
   return (
-    <div>
+    <div className='allBlogs'>
       <Nav />  
-      <h4>Blogs</h4>
-      <ul>
+      <h1>All Posts</h1>
+      <div className='display-posts'>
+       {
+        blogs.map((blog)=>{
+          return(<div className="blogidea" key={blog.id}>
+             
+             <img onClick={()=> navigate(`/blogs/${blog._id}`)}src={blog.image}  alt="pic"/>
+             <h3>{blog.title}</h3>
+          </div>)
+        })
+       }
+      {/* <ul>
         {blogsData}
-      </ul>
+      </ul> */}
+      </div>
       <Footer />
   </div>
 )

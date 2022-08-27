@@ -47,7 +47,7 @@ function BlogCreate() {
   }, [createdBlog, navigate])
 
   return (
-    <Layout>
+    <Layout >
       <BlogForm
         blog={blog}
         handleChange={(e) => handleChange(e)}

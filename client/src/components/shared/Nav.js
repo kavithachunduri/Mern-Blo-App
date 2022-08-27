@@ -5,8 +5,8 @@ const Nav = () => {
     <div className="links">
   <nav>
     <NavLink to="/">Home</NavLink>
-    <NavLink to="/blogs">Blogs</NavLink>
-    <NavLink to="/create-blog">Create Blog</NavLink>
+    <NavLink to="/blogs">Posts</NavLink>
+    <NavLink to="/create-blog">Write</NavLink>
     <NavLink to="/images">Images</NavLink>
     </nav>
     </div>

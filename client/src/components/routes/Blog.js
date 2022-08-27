@@ -58,19 +58,19 @@ function Blog() {
     
 
     <Layout>
-
+      <div className='blog-page'>
       <h2>{blog.title}</h2>
       <img src={blog.image}  alt="pic"/>
       <p>{blog.description}</p>
-      <h4>{blog.author}</h4>
-      <button onClick={() => destroy()} >Delete Blog</button>
+      <h4>Post Created by : {blog.author}</h4>
+      <button className="buttondelete-blog"onClick={() => destroy()} >Delete Post</button>
 
       <NavLink to={`/blogs/${id}/edit`} >
-        <button>Edit</button>
-      </NavLink>
+        <button className="buttonedit-blog">Edit</button>
+      </NavLink><br/>
 
-      <NavLink to="/blogs" >Back to all blogs</NavLink>
-      
+      <NavLink className="backtoblogs" to="/blogs" >Back to all Posts</NavLink>
+      </div>
     </Layout>
   )
 }
