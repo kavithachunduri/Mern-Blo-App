@@ -14,18 +14,32 @@
 </hr>
 
 ##### Technologies
-![React] (https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png)
-![Node.js] https://user-images.githubusercontent.com/25181517/183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c.png
-![React] https://user-images.githubusercontent.com/25181517/183859966-a3462d8d-1bc7-4880-b353-e2cbed900ed6.png
-https://user-images.githubusercontent.com/25181517/121401671-49102800-c959-11eb-9f6f-74d49a5e1774.png
-https://user-images.githubusercontent.com/25181517/182884177-d48a8579-2cd0-447a-b9a6-ffc7cb02560e.png
-https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png
-https://user-images.githubusercontent.com/25181517/117447535-f00a3a00-af3d-11eb-89bf-45aaf56dbaf1.png
+
+
 
 
 #### Database Models
 
 1.Blogs
+
+![183897015-94a058a6-b86e-4e42-a37f-bf92061753e5](https://user-images.githubusercontent.com/105738289/187253698-4ba11bad-390e-42c2-83e5-f57dae4e71af.png)
+
+![121401671-49102800-c959-11eb-9f6f-74d49a5e1774](https://user-images.githubusercontent.com/105738289/187253710-63123d18-e902-49eb-8caa-9df97ac417de.png)
+
+![183568594-85e280a7-0d7e-4d1a-9028-c8c2209e073c](https://user-images.githubusercontent.com/105738289/187253729-e9f9f333-415b-4c7f-84f5-5ea2f602b95c.png)
+
+![183859966-a3462d8d-1bc7-4880-b353-e2cbed900ed6](https://user-images.githubusercontent.com/105738289/187253766-c9b260e0-fb2e-4be1-bf1a-160a90e75722.png)
+
+![117447535-f00a3a00-af3d-11eb-89bf-45aaf56dbaf1](https://user-images.githubusercontent.com/105738289/187254099-84c5cdeb-f0b0-4be3-b617-9aa55c966cf1.png)
+
+![183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75](https://user-images.githubusercontent.com/105738289/187254119-8eea072c-c844-4ecc-b44b-14c769a9449f.png)
+
+
+![117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f](https://user-images.githubusercontent.com/105738289/187254155-dd7b0bc4-da5b-4dad-8f2c-9d3c89ceae27.png)
+
+
+
+
 
 
 
