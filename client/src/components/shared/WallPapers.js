@@ -71,7 +71,7 @@ function WallPapers() {
     <div>
     <Nav />
     <div className='Wallpapers'>
-        <h1> WallPapers  </h1>
+        <h1> Get Images for your Posts </h1>
         <h4>If you want to use a wallpaper right click on the image and copy the image address</h4>
         <input  type="text" placeholder="Search Your Wallpaper...."  onChange={(e)=>setSearch(e.target.value)} />
      
