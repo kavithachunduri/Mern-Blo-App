@@ -1,5 +1,72 @@
 # Mern-Blog-App
 
+- Its a full stack (MERN) project 
+-Performs all CRUD operations
+
+
+##Deployed Links 
+
+### Netlify Link  : [https://kavitha-mern-blog.netlify.app/]
+
+### Heroku link  : https://kavitha-mern-blog-app.herokuapp.com/api/blogs
+
+
+![technologies](https://user-images.githubusercontent.com/97922836/165500070-cd0c316c-6f03-44cd.png)
+
+#### Database Models
+
+Blogs
+
+##### API End points
+
+    GET: https://remember-mern.herokuapp.com/api/blogs
+    GET: https://remember-mern.herokuapp.com/api/blogs/:id  -- GET blog by blog id
+    POST: https://remember-mern.herokuapp.com/api/blogs/add -- adds new blog
+    PUT: https://remember-mern.herokuapp.com/api/blogs/update/:id -- update blog by blog id
+    DELETE: https://remember-mern.herokuapp.com/api/blogs/:id --deletes blog by blog id
+    
+    
+    ### Feature List
+<hr/>
+
+
+1. Blogs
+2. User can read, create, edit, delete own posts
+
+
+### Dependencies
+<hr/>
+
+
+
+#### Front-End:
+
+1. react router dom
+2. axios
+
+
+#### Back-End:
+
+1. express
+2. mongoDB/mongoose
+3. morgan
+4. nodemon
+5. cors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
