@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import axios from 'axios'
 import Layout from "../shared/Layout";
 import BlogForm from "../shared/BlogForm";
-//import apiUrl from '../../apiConfig'
+import apiUrl from '../../apiConfig'
 function BlogEdit(){
     const navigate = useNavigate()
     const { id } = useParams()  //get the id from the current object to update
