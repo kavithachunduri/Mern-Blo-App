@@ -6,16 +6,18 @@
 
 ##Deployed Links 
 
-### Netlify Link  : [https://kavitha-mern-blog.netlify.app/]
+#### Netlify Link  : [https://kavitha-mern-blog.netlify.app/]
 
-### Heroku link  : https://kavitha-mern-blog-app.herokuapp.com/api/blogs
+#### Heroku link  : https://kavitha-mern-blog-app.herokuapp.com/api/blogs
 
 
 ![technologies](https://user-images.githubusercontent.com/97922836/165500070-cd0c316c-6f03-44cd.png)
 
 #### Database Models
 
-Blogs
+1.Blogs
+
+
 
 ##### API End points
 
@@ -25,11 +27,9 @@ Blogs
     PUT: https://remember-mern.herokuapp.com/api/blogs/update/:id -- update blog by blog id
     DELETE: https://remember-mern.herokuapp.com/api/blogs/:id --deletes blog by blog id
     
+
+### Feature List
     
-    ### Feature List
-<hr/>
-
-
 1. Blogs
 2. User can read, create, edit, delete own posts
 
@@ -52,27 +52,6 @@ Blogs
 3. morgan
 4. nodemon
 5. cors
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  
 
