@@ -531,3 +531,38 @@ box-sizing: border-box;
     }
  
 }
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+
+  .links nav a {
+    padding-right: 60px;
+    margin-right: 4px;
+    font-weight: 700;
+    font-size: 28px;
+  }
+
+  .homelayout{
+    margin-bottom: 650px;
+  }
+  .links {
+    height:130px
+  }
+  .footerClass{
+    height: 200px;
+  }
+  .footerClass p{
+    font-size: larger;
+    color: aliceblue;
+   }
+   .homelayout h1{
+    font-size: 240px;
+   }
+   .divContainer{
+    margin-bottom: -180px;
+    height: 800px;
+    width: 650px;
+   }
+}
