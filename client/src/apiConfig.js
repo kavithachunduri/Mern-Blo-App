@@ -1,6 +1,6 @@
 let apiUrl
 const apiUrls = {
- // production: 'https://kavitha-fullstack.herokuapp.com/api',
+ production: 'https://kavitha-mern-blog-app.herokuapp.com/api',
   development: 'http://localhost:4000/api'
 }
 
