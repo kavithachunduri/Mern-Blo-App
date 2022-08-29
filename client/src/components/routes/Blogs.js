@@ -5,7 +5,7 @@ import Nav from "../shared/Nav"
 import Footer from '../shared/Footer'
 import {useNavigate} from "react-router-dom";
 
-//import apiUrl from '../../apiConfig'
+import apiUrl from '../../apiConfig'
 
 function Blogs() {
   
@@ -14,8 +14,8 @@ function Blogs() {
 
   const fetchData = async () => {
     try {
-      //const response = await axios(`${apiUrl}/blogs`)
-      const response = await axios(`http://localhost:4000/api/blogs`)
+      const response = await axios(`${apiUrl}/blogs`)
+      //const response = await axios(`http://localhost:4000/api/blogs`)
       setBlogs(response.data.blogs)
 
     } catch (error) {
@@ -27,13 +27,6 @@ function Blogs() {
     fetchData()
   }, [])
 
-  // const blogsData = blogs.map((blog) => {
-  //   return <li key={blog._id}>
-  //     <NavLink className="blogidea"  to={`/blogs/${blog._id}`} >{blog.title}
-       
-  //     </NavLink>
-  //   </li>
-  // })
 
   return (
     <div className='allBlogs'>
@@ -49,9 +42,7 @@ function Blogs() {
           </div>)
         })
        }
-      {/* <ul>
-        {blogsData}
-      </ul> */}
+     
       </div>
       <Footer />
   </div>

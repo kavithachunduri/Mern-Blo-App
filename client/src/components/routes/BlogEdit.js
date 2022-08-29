@@ -41,8 +41,8 @@ function BlogEdit(){
     const handleSubmit = (event) => {
         event.preventDefault()
          axios({
-            //url:`${apiUrl}/blogs/${id}`
-             url: `http://localhost:4000/api/blogs/${id}`,
+            url:`${apiUrl}/blogs/${id}`,
+             //url: `http://localhost:4000/api/blogs/${id}`,
              method: 'PUT',
              data: blog
          }).then(() => setUpdated(true)).catch(console.error)

@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import Layout from '../shared/Layout';
 import BlogForm from '../shared/BlogForm';
-//import apiUrl from '../../apiConfig'
+import apiUrl from '../../apiConfig'
 
 function BlogCreate() {
   const navigate = useNavigate();
@@ -32,8 +32,8 @@ function BlogCreate() {
     //if the entry is created in the database, save the response data
     // in the state
     axios({
-      //url: `${apiUrl}/blogs`,
-      url: `http://localhost:4000/api/blogs`,
+      url: `${apiUrl}/blogs`,
+     // url: `http://localhost:4000/api/blogs`,
       method: 'POST',
       data: blog
     }).then(res => setCreatedBlog(res.data.blog)).catch(console.error)

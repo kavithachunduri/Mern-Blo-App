@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { NavLink, useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios';
 import Layout from '../shared/Layout'
-//import apiUrl from '../../apiConfig'
+import apiUrl from '../../apiConfig'
 
 
 function Blog() {
@@ -16,9 +16,9 @@ function Blog() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios(`http://localhost:4000/api/blogs/${id}`)
+        //const response = await axios(`http://localhost:4000/api/blogs/${id}`)
 
-        //const response = await axios(`${apiUrl}/items/${id}`)
+        const response = await axios(`${apiUrl}/blogs/${id}`)
         console.log(response)
         const result = response.data.blog
     setBlog(result)
@@ -39,8 +39,8 @@ function Blog() {
   const destroy = () => {
    axios({
 
-      //url: `${apiUrl}/items/${id}`,
-      url: `http://localhost:4000/api/blogs/${id}`,
+      url: `${apiUrl}/blogs/${id}`,
+      //url: `http://localhost:4000/api/blogs/${id}`,
       method: 'DELETE'
     }).then(() => setDeleted(true)).catch(console.error)
   }
