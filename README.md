@@ -96,7 +96,7 @@ Some of the technologies used in the development of this web application are as 
 -   [Netlify](https://www.netlify.com/): To deploy the react app
 
 
-##Wireframes
+## Wireframes
 DESKTOP/IPAD
 
 
