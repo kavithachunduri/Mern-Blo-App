@@ -94,3 +94,26 @@ Some of the technologies used in the development of this web application are as 
 -   [Mongoose](https://mongoosejs.com/): An ODM(Object Data Modelling)library for MongoDB and Node.js
 -   [Heroku](http://heroku.com/): A platform(PaaS) to deploy full stack web applications for free.
 -   [Netlify](https://www.netlify.com/): To deploy the react app
+
+
+##Wireframes
+DESKTOP/IPAD
+
+
+
+![Screenshot (433)](https://user-images.githubusercontent.com/105738289/187517196-bcc57d97-e0d6-4ca5-8168-d10351bf56f1.png)
+![Screenshot (434)](https://user-images.githubusercontent.com/105738289/187517215-3e3800ab-4d9b-4bf1-aa7a-5d02398b40b1.png)
+
+![Screenshot (435)](https://user-images.githubusercontent.com/105738289/187517368-264ba06b-5e69-41f7-ac7d-28b1dd88e285.png)
+
+![Screenshot (442)](https://user-images.githubusercontent.com/105738289/187517400-5c93e0f3-b20c-4a94-b937-013d673c0544.png)
+
+![Screenshot (437)](https://user-images.githubusercontent.com/105738289/187517418-50d0ef0e-9205-4eb6-a030-28b9da7696bd.png)
+
+
+MOBILE VIEW
+
+![Screenshot (440)](https://user-images.githubusercontent.com/105738289/187517493-aae64736-cbae-456d-b985-957841215da8.png)
+
+
+![Screenshot (443)](https://user-images.githubusercontent.com/105738289/187517518-e2c8f690-7583-4130-bad3-84f3b4e81d75.png)
