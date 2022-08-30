@@ -117,3 +117,9 @@ MOBILE VIEW
 
 
 ![Screenshot (443)](https://user-images.githubusercontent.com/105738289/187517518-e2c8f690-7583-4130-bad3-84f3b4e81d75.png)
+
+
+## COMPONENT HIERARCHY
+
+
+![Screenshot (444)](https://user-images.githubusercontent.com/105738289/187524089-6dbe0084-571b-4d57-a505-b5dd936b8d13.png)
