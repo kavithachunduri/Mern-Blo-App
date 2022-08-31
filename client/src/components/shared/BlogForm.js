@@ -3,8 +3,8 @@ const BlogForm = ({blog, handleSubmit, handleChange, cancelPath}) => {
     return(
         <div className='divContainer'>
         <form className='forminput' onSubmit={(e) => handleSubmit(e)}>
-            <h3 className='mainlabel'>New Post</h3><br/>
-            <h5>Create your new post for the blog here....!</h5>
+            <h3 className='mainlabel'>Create/Edit Post</h3><br/>
+            //<h5>Create your new post for the blog here....!</h5>
             <label>Name of the Post : </label>
             <input
             className='inputtitle'
