@@ -18,8 +18,8 @@ function BlogEdit(){
     useEffect(() => {
         const fetchData = async () => {
        try {
-           //const response = await axios(`${apiUrl}/items/${id}`)
-           const response = await axios(`http://localhost:4000/api/blogs/${id}`)
+           const response = await axios(`${apiUrl}/blogs/${id}`)
+           //const response = await axios(`http://localhost:4000/api/blogs/${id}`)
            console.log(response)
            setBlog(response.data)
        } catch (error) {
