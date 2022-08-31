@@ -70,6 +70,10 @@ HomePage
 Posts Page
 ![Screenshot (424)](https://user-images.githubusercontent.com/105738289/187011756-e1ab95d0-e59a-4e69-a4e0-0f2d3352ef0b.png)
 
+Individual Post
+
+![Screenshot (447)](https://user-images.githubusercontent.com/105738289/187681796-11060d5a-6973-41e4-89b5-c7e6741f8852.png)
+
 Write Post
 ![Screenshot (425)](https://user-images.githubusercontent.com/105738289/187011765-628b603d-9fba-4f97-a84f-d68cb05e4c11.png)
 
